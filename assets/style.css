@@ -1,11 +1,18 @@
+/* styling all my sheets */
 body {
     background-color: lightblue;
     font-family: 'Roboto', 'Open Sans';
 }
-
-.images {
+/* formatting images */
+.mainimages {
     height: 300px;
     width: 500px;
+    margin: 20px;
+}
+
+.portfolioimages {
+    height: 3250 px;
+    width: 300px;
     margin: 20px;
 }
 
