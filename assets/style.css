@@ -2,6 +2,7 @@
 body {
     background-color: lightblue;
     font-family: 'Roboto', 'Open Sans';
+    text-align: center;
 }
 /* formatting images */
 .mainimages {
