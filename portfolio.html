@@ -1,47 +1,89 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Sharon's Portfolio Page</title>
-  </head>
-  <body>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <title>Sharon's Portfolio Page</title>
+</head>
 
-    <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Sharon Kim's Site</a>
-        <!--Navigation Bar Toggler-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- I think this is what makes it responsive too-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Main Page</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio Page</a>
-            </li>
-          </ul>
+<body>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Sharon Kim's Site</a>
+      <!--Navigation Bar Toggler-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- I think this is what makes it responsive too-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio Page</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <h2>Portfolio</h2>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="./assets/trail_blazers.png" class="card-img-top" alt="Image of Application">
+        <div class="card-body">
+          <h5 class="card-title">Trailblazers</h5>
+          <p class="card-text">The goal of our site is to help ambitious hikers be more informed about the top trails in
+            America.Once a user signs in, they will have access to a list of the top trails in America. By navigating to
+            a trail's page, the user will be presented with relevant information about the trail. For example, the
+            difficulty of the trail, if pets are allowed, and more. They will see comments about the trail from
+            reviewers and have the ability to post comments as well.</p>
+          <a href="https://trailblazer-5189.herokuapp.com/" target="_blank" class="btn btn-primary">Application Link</a>
+          <a href="https://github.com/skimmers/project_2#installation/deployment" target="_blank" class="btn btn-primary">GitHub</a>
         </div>
       </div>
-    </nav>
+      <div class="card">
+        <img src="./assets/Password_Generator.png" class="card-img-top" alt="Image of Application">
+        <div class="card-body">
+          <h5 class="card-title">The Password Generator</h5>
+          <p class="card-text">This is an application that can generate any password for you. I used HTML, CSS, and
+            JavaScript for this application.</p>
+          <a href="https://skimmers.github.io/password_generator/" target="_blank" class="btn btn-primary">Application Link</a>
+          <a href="https://github.com/skimmers/password_generator/deployments/activity_log?environment=github-pages"
+          target="_blank" class="btn btn-primary">GitHub</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/Code_Quiz.png" class="card-img-top" alt="Image of Application">
+        <div class="card-body">
+          <h5 class="card-title">The Code Quiz</h5>
+          <p class="card-text">I created a code quiz with HTML, CSS, and JavaScript. Please test your coding knowledge by taking my timed quiz!</p>
+          <a href="https://skimmers.github.io/code_quiz/" target="_blank" class="btn btn-primary">Application Link</a>
+          <a href="https://github.com/skimmers/code_quiz"target="_blank" class="btn btn-primary">GitHub</a>
+        </div>
+      </div>
+    </div>
 
-    <main>
-      <h2>Portfolio</h2>
-      <div class="row">
-        <div class="col-sm-6">
+
+    <!--  
+      <div class="card-deck">
+        <div class="card">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">The Password Generator</h5>
@@ -52,7 +94,18 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="card">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">The Password Generator</h5>
+              <img class="card-img-top" src="./assets/Password_Generator.png" alt="Image of Application ">
+              <p class="card-text">This is an application that can generate any password for you. I used HTML, CSS, and JavaScript for this application.</p>
+              <a href="https://skimmers.github.io/password_generator/" class="btn btn-primary">Application Link</a>
+              <a href="https://github.com/skimmers/password_generator/deployments/activity_log?environment=github-pages" class="btn btn-primary">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">The Code Quiz</h5>
@@ -64,6 +117,8 @@
           </div>
         </div>
       </div>
-    </main>
-  </body>
+    -->
+  </main>
+</body>
+
 </html>
